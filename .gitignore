@@ -1,0 +1,19 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# Secrets
+.streamlit/secrets.toml
+.env
+*.env
+
+# Notebook (submitted separately, not part of the app repo)
+*.ipynb
